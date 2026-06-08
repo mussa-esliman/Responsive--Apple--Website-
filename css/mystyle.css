@@ -1,0 +1,69 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.lern_buy ul li a {
+	color: blue;
+}
+.lern_buy ul li a:hover {
+	color: black;
+}
+.lern_buy ul li a::after {
+	font-family: "bootstrap-icons";
+	font-weight: 900;
+	content: "\F285";
+	padding-left: 10px;
+}
+.bg_images {
+	height: 580px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.iphon11 {
+	background-image: url("../images/home/iphone11-bg.jpg");
+}
+
+.iphon11_pro {
+	background-image: url("../images/home/iphone11-pro-bg.jpg");
+}
+.iphon11_pro ul li a:hover {
+	color: white;
+}
+.watche {
+	background-image: url("../images/home/watch-series-5.jpg");
+}
+.Cardair {
+	background-image: url("../images/home/apple-card.jpg");
+}
+.macbook {
+	background-color: #fafafa;
+}
+.Tv {
+	background-image: url("../images/home/apple-tv-background.jpg");
+}
+.WatchT a {
+	color: blue;
+}
+.WatchT a:hover {
+	color: black;
+}
+.WatchT a::after {
+	font-family: "bootstrap-icons";
+	font-weight: 900;
+	content: "\F4F2";
+	padding-left: 10px;
+}
+.Airpad {
+	background-image: url("../images/home/air-pods.jpg");
+	background-size: initial;
+	background-position: bottom;
+	background-color: black;
+}
+.Airpad ul li a:hover {
+	color: white;
+}
+.ipad {
+	background-image: url("../images/home/new-ipad.jpg");
+}
